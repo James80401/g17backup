@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:8080/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./localhost_files/gkit.css">
+  <link rel="stylesheet" href="./localhost_files/styles.css">
+</head>
+
+<body>
+  <div class="gcontainer">
+
+    <div class="grow">
+      <div class="gcol-12n">
+        <h1>GKIT</h1>
+        <h2>A responsive css framework built by you!</h2>
+        <p>
+          Right now I look really ugly because it is up to you to finish building me. Open up my gkit.css and complete the TODO items.
+        </p>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--CONTAINER-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Container</h2>
+        <p>
+          A container is place to put all of your content and layouts. It adjusts with screen size allowing for responsive designs.
+        </p>
+        <p>
+          GKit has supports two screen sizes.
+          </p><dl class="glist-horizontal">
+            <dt>
+              Small
+            </dt>
+            <dd>
+              Screen sizes less than 768px
+            </dd>
+            <dt>
+              Normal
+            </dt>
+            <dd>
+              Screen sizes greater than or equal to 768px
+            </dd>
+          </dl>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--GRID-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Grid</h2>
+        <p>
+          GKit has a column and row grid that supports the small and normal screen sizes.
+        </p>
+        <p>
+          GKit uses a 12 column system for normal and small screens.
+          Normal will automatically collapse to block elements when the screen is smaller than 768px.
+          Small will always appear horizontal.
+        </p>
+        <div class="grow">
+          <div class="gcol-12n">
+            <div class="grid-example">
+              gcol-12n
+            </div>
+          </div>
+        </div>
+        <div class="grow gtext-center">
+          <div class="gcol-4n">
+            <div class="grid-example">
+              gcol-4n
+            </div>
+          </div>
+          <div class="gcol-4n gtext-center">
+            <div class="grid-example">
+              gcol-4n
+            </div>
+          </div>
+          <div class="gcol-4n gtext-center">
+            <div class="grid-example">
+              gcol-4n
+            </div>
+          </div>
+        </div>
+        <div class="grow gtext-center">
+          <div class="gcol-2n">
+            <div class="grid-example">
+              gcol-2n
+            </div>
+          </div>
+          <div class="gcol-8n gtext-center">
+            <div class="grid-example">
+              gcol-8n
+            </div>
+          </div>
+          <div class="gcol-1n gtext-center">
+            <div class="grid-example">
+              gcol-1n
+            </div>
+          </div>
+          <div class="gcol-1n gtext-center">
+            <div class="grid-example">
+              gcol-1n
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CONTEXTUAL COLORS-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Contextual Colors</h2>
+        <p>
+          GKit has contextual colors for both backgrounds and fonts
+        </p>
+        <dl>
+          <dt>
+            gtext-success
+          </dt>
+          <dd class="gtext-success">
+            this is an example of gtext-success
+          </dd>
+          <dt>
+            gtext-danger
+          </dt>
+          <dd class="gtext-danger">
+            this is an example of gtext-danger
+          </dd>
+          <dt>
+            gtext-success
+          </dt>
+          <dd class="gtext-info">
+            this is an example of gtext-info
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            gbg-success
+          </dt>
+          <dd class="gbg-success">
+            this is an example of gbg-success
+          </dd>
+          <dt>
+            gbg-danger
+          </dt>
+          <dd class="gbg-danger">
+            this is an example of gbg-danger
+          </dd>
+          <dt>
+            gbg-success
+          </dt>
+          <dd class="gbg-info">
+            this is an example of gbg-info
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--TYPOGRAPHY-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Typography</h2>
+        <p>
+          GKit has default values for h1 - 16
+        </p>
+        <h1>H1 - example</h1>
+        <h2>H2 - example</h2>
+        <h3>H3 - example</h3>
+        <h2>h2 - example</h2>
+        <h5>H5 - example</h5>
+        <h6>H6 - example</h6>
+        <p>
+          GKit has several text alignment properties as well
+        </p>
+        <p class="gtext-left">
+          gtext-left left aligns text
+        </p>
+        <p class="gtext-right">
+          gtext-right right aligns text
+        </p>
+        <p class="gtext-center">
+          gtext-right center aligns text
+        </p>
+        <p class="gtext-justify">
+          gtext-justify justifies text
+        </p>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--LISTS-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Lists</h2>
+        <p>
+          GKit has a style that inlines all the elements of a table
+        </p>
+          <ul class="glist-inline">
+            <li>
+              Like
+            </li>
+            <li>
+              So
+            </li>
+          </ul>
+          <p>
+            It also has a style that makes dt's bolded inline with their dds
+          </p>
+          <dl class="glist-horizontal">
+            <dt>
+              GKit
+            </dt>
+            <dd>
+              A CSS Framework for general badassery and rapid development
+            </dd>
+            <dt>
+              Team
+            </dt>
+            <dd>
+              Made by G's for G's
+            </dd>
+          </dl>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--TABLES-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Tables</h2>
+        <dl class="glist-horizontal">
+          <dt>
+            gtable-striped
+          </dt>
+          <dd>
+            makes every other row alternate coloration
+          </dd>
+          <dt>
+            gtable-bordered
+          </dt>
+          <dd>
+            adds a border around all table cells
+          </dd>
+          <dt>
+            gtable:hover
+          </dt>
+          <dd>
+            highlights a tale row when mouse hovers over it
+          </dd>
+        </dl>
+        <table class="gtable-striped">
+          <thead>
+            <tr>
+              <th>
+                Striped
+              </th>
+              <th>
+                Example
+              </th>
+              <th>
+                Header
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="gtable-border">
+          <thead>
+            <tr>
+              <th>
+                Gtable
+              </th>
+              <th>
+                Border
+              </th>
+              <th>
+                And Hover
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+            <tr>
+              <td>
+                One
+              </td>
+              <td>
+                Two
+              </td>
+              <td>
+                Three
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--BUTTONS-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Button</h2>
+        <p>
+          Button classes should work on the following elements:
+            &lt;a&gt;
+            &lt;input type="button"&gt;
+            &lt;button&gt;
+        </p>
+        <button class="gbtn">Button</button>
+        <input type="button" class="gbtn">Input
+        <a class="gbtn">A</a>
+        <button class="gbtn:disabled">Disabled</button>
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--Images-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Images</h2>
+        <p>
+
+          gimg-round makes images look round
+          gimb-bordered adds a border
+        </p>
+      <img src="./localhost_files/cats-in-sink.jpg" class="gimg-round">
+      <img src="./localhost_files/cats-in-sink.jpg" class="gimg-bordered">
+      </div>
+    </div>
+
+    <div class="gdivider"></div>
+
+    <!--HELPERS-->
+    <div class="grow">
+      <div class="gcol-12n">
+        <h2>Helpers</h2>
+        <p>
+          gdivider creates a visible line that divides content
+        </p>
+        <div class="gdivider">
+        </div>
+        <p>
+          ghelp-center centers block elements
+        </p>
+        <div class="ghelp-center grid-example block-center-example">
+          example right here
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body></html>

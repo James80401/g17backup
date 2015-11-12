@@ -1,0 +1,86 @@
+
+
+ <html>
+
+ <head>
+
+  <style>
+  .navbar {
+    width: 100%;
+    border-color: red;
+    border-style: solid;
+    background-color: white;
+    height: 2.5em;
+    display: flex;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+  padding: 5px;
+}
+.menu {
+  position: relative;
+    padding: 5px;
+}
+.drop-nav {
+  position: absolute;
+  display: none;
+    padding: 5px;
+}
+
+.menu:hover > .drop-nav {
+  float:left;
+  display: block;
+    padding: 5px;
+}
+.link {
+  padding:20px;
+}
+  </style>
+
+  </head>
+
+<!--______________MIDDLE LINE CODE UNDER HERE__________________-->
+   <body>
+
+      <nav class="navbar">
+
+          <span class="menu"><a href="default.asp">Home</a>
+              <p class="drop-nav">
+                <a href="#" class="link">Homeitem</a>
+                <a href="#">newsitem</a>
+                <a href="#">newsitem</a>
+              </p>
+          </span>
+
+          <span class="menu"><a href="news.asp">News</a>
+            <p class="drop-nav">
+              <a href="#" class="link">newsitem</a>
+              <a href="#">newsitem</a>
+              <a href="#">newsitem</a>
+            </p>
+          </span>
+
+          <span class="menu"><a href="contact.asp">Contact</a>
+            <p class="drop-nav">
+              <a href="#">newsitem</a>
+              <a href="#">newsitem</a>
+              <a href="#">newsitem</a>
+            </p>
+          </span>
+
+          <span class="menu"><a href="about.asp">About</a>
+            <p class="drop-nav">
+              <a href="#">newsitem</a>
+              <a href="#">newsitem</a>
+              <a href="#">newsitem</a>
+            </p>
+          </span>
+        </nav>
+    </body>
+
+
+     </html>

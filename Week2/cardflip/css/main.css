@@ -1,0 +1,19 @@
+/* add your styles here */
+.primary {
+  position: absolute;
+}
+
+.secondary {
+  position: absoulte;
+  opacity: 0;
+}
+.secondary:hover {
+opacity: 1.0;
+}
+.primary:hover {
+  opacity: 0;
+}
+
+.primary, .secondary {
+  transition:opacity 2s ease;
+}
