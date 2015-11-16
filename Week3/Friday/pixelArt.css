@@ -1,0 +1,8 @@
+.key {
+  border-color: black;
+  border-style: dashed;
+  border-width: .1rem;
+  height: 20px;
+  width:20px;
+  float: left;
+}
