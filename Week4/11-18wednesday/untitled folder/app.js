@@ -21,8 +21,7 @@ $(document).on('ready', function(){
               //my api key <js-CV19L6yxnrcTPBpwGgZhT8UyrlwLONiqJkzuq72OzeIoQ7UxoTOh2JQu4nfTbyjU>
               method: "GET",
               success: function(data) {
-                zipCode = data.zip_codes[2];
-                console.log(zipCode);
+                console.log(data);
                 // alert(JSON.stringify(data));
 
               var distance = {};
