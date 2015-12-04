@@ -1,0 +1,8 @@
+var Shape = function (newSize, newColor);
+var _size = newSize
+var _color = newCOor
+
+return {
+getArea: function() {
+console.log(err)
+}}

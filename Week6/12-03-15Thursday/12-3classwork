@@ -1,0 +1,23 @@
+function createDog(){
+    var legs = 4;
+    var name = "Fido";
+    return {
+        bark: function(){
+            console.log("Woof!");
+        },
+        getLegs: function(){
+            return legs;
+        },
+        addLegs: function(numberOfLegsToAdd){
+            legs += numberOfLegsToAdd;
+        },
+        setName: function(updatedName){
+            name = updatedName;
+        },
+        getName: function(){
+            return name;
+        }
+    }
+};
+
+var Dog = createDog();
